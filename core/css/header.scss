@@ -412,11 +412,12 @@
 /* do not show display name when profile picture is present */
 
 #header {
-	#header-left #header-right {
+	#header-left,
+	#header-right {
 		display: flex;
 	}
 
-	div.header-left {
+	#header-left {
 		flex: 0 0;
 		flex-grow: 1;
 	}
